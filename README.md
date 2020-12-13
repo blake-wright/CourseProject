@@ -16,9 +16,9 @@ Torch          1.7.1           pip install torch
 
 The following videos can be used as a reference on how to setup a miniconda python environment if you
 don't have any of the libraries and want some setup automatically. However, for the tensorflow.yml file
-you will want to update the '''tensorflow=2.0''' to '''tensorflow=2.3.1'''. Or just copy the below.
+you will want to update the ```tensorflow=2.0``` to ```tensorflow=2.3.1```. Or just copy the below.
 
-'''
+```
 name: tensorflow
 
 dependencies:
@@ -42,10 +42,13 @@ dependencies:
         - bayesian-optimization
         - gym
         - kaggle
-'''
+```
 
 For Windows:
 https://www.youtube.com/watch?v=RgO8BBNGB8w
 
 For MacOS:
 https://www.youtube.com/watch?v=MpUvdLD932c&t=372s
+
+## Running the project
+After the setup is complete you can proceed to running the project. If you 
