@@ -1,5 +1,9 @@
 # Classification Competition - Analyzing Twitter Tweets
 
+Video link to presentation: https://drive.google.com/file/d/17dMSY3kKD93lZayn_cvysVckzSeQaHD7/view?usp=sharing
+
+In the video I go over most of this README besides the setup. I cover running it as well as a dive into the code.
+
 ## Setting up your environment
 
 You will need the following libraries to successfully run my project:
@@ -93,14 +97,13 @@ further voice their sarcasm.
 As you can see I used the AutoTokenizer from the transformers library as I would not have to switch it when using different models.
 
 I initiailly wrote this project using DistilBert, which is far faster than Bert and is almost as accurate.
-In the end I set my model to the BERT as I got slightly better results from it, only about 2% accuracy increase. I also tried XLNet and RoBERTa but
-with my code they were performing up to 10% less accurate than BERT.
+I also did try using BERT, I did get better results (~2% accuracy) but when I uploaded them to the leaderboard they were slightly worse. I also tried XLNet and RoBERTa but with my code they were performing up to 10% less accurate than BERT. I believe this was because I was not able to configure them as precisely.
 
 ```
 #setting modelId, tokenizer, and model
-modelId = "bert-base-cased"
+modelId = "distilbert-base-cased"
 tokenizer = AutoTokenizer.from_pretrained(modelId)
-model = BertModel.from_pretrained(modelId)
+model = DistilBertModel.from_pretrained(modelId)
 ```
 
 Next up was getting all of the data ready for the model. Tokenizing the data, padding the lengths, and masking so the padding was not used.
