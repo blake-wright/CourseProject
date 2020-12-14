@@ -29,7 +29,7 @@ dependencies:
     - python=3.7
     - pip>=19.0
     - jupyter
-    - tensorflow=2.0
+    - tensorflow=2.3.1
     - scikit-learn
     - scipy
     - pandas
@@ -186,7 +186,7 @@ on the hashtags found in tweets as many of them seemed to correlate strongly fro
 I did not use the context as part of the analysis as well. I feel like this could have been a big improvement without too much more additional code.
 However, time was a factor in this project and I was not able to complete this task.
 
-## Creditation
+## Credit
 
 Huggingface's website was a great help. The transformers library is maintained by them which was used in this project. They also provide ample of documentation
 on how to use them. I also found their examples extremely useful in understanding the flow of the program. I have included links to both the home page and to the example.
