@@ -2,7 +2,15 @@
 
 Video link to presentation: https://drive.google.com/file/d/17dMSY3kKD93lZayn_cvysVckzSeQaHD7/view?usp=sharing
 
-In the video I go over most of this README besides the setup. I cover running it as well as a dive into the code.
+In the video I go over most of this README besides the setup. I do have another video below that is my own video of the environment setup.
+
+Video link to environment setup (farther down you will see the videos from Jeff Heaton where I sourced this information): 
+
+https://drive.google.com/file/d/1hQFQuth2hXUuuUFBRt_a4RNttmnmoQ8x/view?usp=sharing
+
+conda env create -v -f tensorflow.yml
+
+python -m ipykernel install --user --name tensorflow --display-name "Python 3.7 (tensorflow)"
 
 ## Setting up your environment
 
