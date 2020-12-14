@@ -1,8 +1,12 @@
 # Classification Competition - Analyzing Twitter Tweets
 
-Video link to presentation: https://drive.google.com/file/d/17dMSY3kKD93lZayn_cvysVckzSeQaHD7/view?usp=sharing
+Video link to presentation: 
+
+https://drive.google.com/file/d/17dMSY3kKD93lZayn_cvysVckzSeQaHD7/view?usp=sharing
 
 In the video I go over most of this README besides the setup. I do have another video below that is my own video of the environment setup.
+
+
 
 Video link to environment setup (farther down you will see the videos from Jeff Heaton where I sourced this information): 
 
