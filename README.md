@@ -198,12 +198,14 @@ on the hashtags found in tweets as many of them seemed to correlate strongly fro
 I did not use the context as part of the analysis as well. I feel like this could have been a big improvement without too much more additional code.
 However, time was a factor in this project and I was not able to complete this task.
 
-## Credit
+## Credit/Documentation
 
 Huggingface's website was a great help. The transformers library is maintained by them which was used in this project. They also provide ample of documentation
 on how to use them. I also found their examples extremely useful in understanding the flow of the program. I have included links to both the home page and to the example.
 
 https://huggingface.co/
+
+https://huggingface.co/transformers/model_doc/distilbert.html (Documentation on library)
 
 https://github.com/huggingface/notebooks/blob/master/examples/text_classification.ipynb
 
